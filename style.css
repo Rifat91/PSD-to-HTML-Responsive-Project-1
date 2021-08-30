@@ -1,0 +1,478 @@
+/* Common CSS */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+
+p {
+    font-weight: 400;
+    margin: 0 0 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    line-height: 1.5em;
+    margin: 0 0 15px;
+}
+
+.content {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+a {
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+#scrollUp {
+    background-image: url(images/download.png);
+    background-repeat: no-repeat;
+    height: 38px;
+    width: 38px;
+    border-radius: 100%;
+    bottom: 5px;
+    right: 5px;
+    display: block;
+    text-indent: -99999px;
+}
+
+.slicknav_menu {
+    display: none;
+}
+
+
+/* Top Header Area */
+
+.top-header-section {
+    background-color: #a88c95;
+    padding: 18px 0;
+    padding-left: 80px;
+    overflow: hidden;
+}
+
+.top-header-section .inner-header {
+    overflow: hidden;
+}
+
+.top-header-section .social-area ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+
+.top-header-section .social-area ul li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.top-header-section .social-area ul li a {
+    background-color: #d2d2d2;
+    color: #6a3144;
+    width: 35px;
+    height: 28px;
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 50%;
+}
+
+.top-header-section .social-area ul li a:hover {
+    background-color: #6a3144;
+    color: #fff;
+}
+
+.top-header-section .search-area {
+    float: right;
+    width: 50%;
+}
+
+.top-header-section .search-area form {
+    text-align: right;
+    width: 320px;
+}
+
+.top-header-section .search-area input[type="text"] {
+    background-color: #fff;
+    border: 0;
+    border-radius: 5px 0px 0px 5px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    width: 220px;
+    float: left;
+}
+
+.top-header-section .search-area input[type="submit"] {
+    background-color: #97455f;
+    color: #fff;
+    padding: 10px;
+    border: 0;
+    border-radius: 0px 5px 5px 0px;
+    font-weight: 600;
+    font-size: 14px;
+    width: 80px;
+    float: right;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.top-header-section .search-area input[type="submit"]:hover {
+    background-color: #6a3144;
+    color: #fff;
+}
+
+
+/* logo section */
+
+.logo-section {
+    text-align: center;
+}
+
+.logo-section img {
+    width: 220px;
+    max-width: 100%;
+    margin: 25px auto 20px auto;
+}
+
+
+/* main menu */
+
+.main-menu {
+    background-color: #97455f;
+    height: 53px;
+}
+
+.main-menu ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.main-menu ul li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: block;
+    padding: 15px 20px;
+    transition: 1s;
+}
+
+.main-menu ul li a:hover {
+    background-color: #6a3144;
+}
+
+
+/* Slider section */
+
+.slider-section {
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-section .bx-wrapper {
+    border: 0;
+    margin: 0;
+}
+
+.slider-section .bx-controls {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    z-index: 999999;
+    height: 10px;
+}
+
+.slider-section .bx-pager {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    width: 100%;
+    z-index: 999999;
+    height: 10px;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+    border: 5px solid #6a3144;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: none;
+    display: block;
+    margin: 0 10px;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: #6a3144;
+}
+
+.slider-section .slider-images {}
+
+.slider-section .slider-images img {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+
+/* Welcome area */
+
+.welcome-section {
+    background-color: #fff;
+    width: 100%;
+    overflow: hidden;
+    padding: 50px 0;
+}
+
+.welcome-section .inner-welcome {
+    overflow: hidden;
+}
+
+.welcome-section .left-welcome {
+    width: 46%;
+    float: left;
+    padding: 0 2%;
+}
+
+.welcome-section .left-welcome h3 {
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.welcome-section .left-welcome p {
+    font-size: 18px;
+}
+
+.welcome-section .left-welcome a {
+    background-color: #6a3144;
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.welcome-section .left-welcome a:hover {
+    background-color: #97455f;
+}
+
+.welcome-section .right-welcome {
+    width: 50%;
+    float: right;
+}
+
+.welcome-section .right-welcome img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Service section */
+
+.service-section {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.service-section .inner-service {
+    overflow: hidden;
+}
+
+.service-section .inner-service h2.title {
+    text-align: center;
+    color: #6a3144;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.service-section .inner-service p.sub-title {
+    text-align: center;
+    font-size: 18px;
+}
+
+.service-section .main-service {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.service-section .child-service {
+    width: 225px;
+    padding: 130px 60px 80px 105px;
+    float: left;
+    position: relative;
+    transition: 0.5s;
+}
+
+.service-section .child-service:hover {
+    background-color: #fff;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px #ddd;
+}
+
+.service-section .child-service h3 {
+    color: #523827;
+    font-size: 100px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    opacity: 0.1;
+    position: absolute;
+    left: 60px;
+    top: 60px;
+}
+
+.service-section .child-service h4 {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 28px;
+}
+
+.service-section .child-service h4 a {
+    color: #523827;
+}
+
+.service-section .child-service h4 a:hover {}
+
+.service-section .child-service p {
+    color: #000000;
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+
+/* Contact Area */
+
+.contact-section {
+    background-image: url("https://images.unsplash.com/photo-1596387451750-f7bfb51461ef?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y292ZXIlMjBwaG90b3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-color: #101f38;
+    padding: 50px 0;
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+}
+
+.contact-section .inner-contact {
+    width: 900px;
+    max-width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.contact-section .inner-contact h2.title {
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    font-size: 36px;
+}
+
+.contact-section .main-contact-form {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-section .main-contact-form input {
+    background-color: #fff;
+    border: 0;
+    width: 42%;
+    padding: 15px 3%;
+    float: left;
+    margin: 0 1% 2%;
+    border-radius: 5px;
+}
+
+.contact-section .main-contact-form textarea {
+    background-color: #fff;
+    border: 0;
+    width: 92%;
+    margin: 0 1% 2%;
+    padding: 15px 3%;
+    border-radius: 5px;
+    min-height: 100px;
+}
+
+.contact-section .main-contact-form input[type="submit"] {
+    background-color: #97455f;
+    width: 250px;
+    margin: 0 auto;
+    float: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-section .main-contact-form input[type="submit"]:hover {
+    background-color: #6a3144;
+}
+
+
+/* Footer Area */
+
+.footer-section {
+    background-color: #fff;
+    padding: 30px 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer-section .inner-footer {
+    overflow: hidden;
+}
+
+.footer-section .footer-logo {
+    width: 420px;
+    max-width: 100%;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+.footer-section .footer-logo img {
+    width: 80%;
+}
+
+.footer-section .copyright-area {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.footer-section .copyright-area p {
+    color: #6a3144;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}

@@ -1,0 +1,81 @@
+    /* Tablet Layout */
+    
+    @media only screen and (min-width: 200px) and (max-width: 991px) {
+        .content {
+            width: 98%;
+        }
+        .bx-wrapper .bx-pager.bx-default-pager a {
+            border: 5px solid #6a3144;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: none;
+            display: block;
+            margin: 0 5px;
+        }
+        .top-header-section .social-area ul {
+            float: left;
+            margin: 0;
+            margin-left: 37px;
+            padding: 0;
+            list-style: none;
+            text-align: left;
+        }
+        .welcome-section .left-welcome {
+            width: 96%;
+            float: left;
+            padding: 0 2%;
+        }
+        .welcome-section .right-welcome {
+            width: 96%;
+            height: auto;
+            margin-top: 30px;
+            margin-right: 7px;
+        }
+        .welcome-section,
+        .service-section {
+            padding: 20px 0;
+        }
+        .service-section .inner-service h2.title {
+            font-size: 25px;
+        }
+        .service-section .inner-service p.sub-title {
+            font-size: 15px;
+        }
+        .service-section .child-service {
+            padding: 130px 46px 80px 105px;
+        }
+    }
+    /* Mobile layout */
+    
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .top-header-section .social-area {
+            width: 100%;
+        }
+        .top-header-section .social-area ul {
+            text-align: center;
+        }
+        .top-header-section .search-area {
+            display: none;
+        }
+        .slicknav_menu {
+            display: block;
+            background-color: #97455f;
+        }
+        .main-menu {
+            display: none;
+        }
+        .welcome-section .left-welcome p {
+            font-size: 16px;
+        }
+        .contact-section .main-contact-form input[type="submit"] {
+            width: 225px;
+            font-size: 18px;
+        }
+        .slider-section .bx-pager {
+            bottom: 28px;
+        }
+        .top-header-section {
+            padding-left: 21px;
+        }
+    }
